@@ -475,7 +475,7 @@
         headerObj = $( 'header' );
         winObj.on( 'load', function()
     {
-        var $preloader = $( '.zmovo-preloader' );
+        var $preloader = $( '.ue-preloader' );
         $preloader.find( '.boxes' ).fadeOut();
         $preloader.delay( 350 ).fadeOut( 'slow' );
     });
